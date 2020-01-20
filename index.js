@@ -24,4 +24,6 @@ const titleCased = (array) => {
   })
 }
 
+function capitalize(element)
+
 // couldn't quite get the syntax right, had to look at solution
