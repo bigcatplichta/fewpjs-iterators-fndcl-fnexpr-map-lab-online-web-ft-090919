@@ -17,4 +17,5 @@ const titleCased = tutorials.map(function tutorial() {
   // capilize first character of each word and append rest of word to character
   let capitalizedWord =
       words.map( word => word.charAt(0).toUpperCase() + word.slice(1) )
+  // 
 });
