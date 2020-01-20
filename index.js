@@ -12,5 +12,9 @@ const tutorials = [
 ];
 
 const titleCased = tutorials.map(function tutorial() {
+  // split string into array of separate words
   let words = tutorial.split(" ")
+  // capilize first character of each word and append rest of word to character
+  let capitalizedWord =
+      words.map( word => word.charAt(0).toUpperCase() + word.slice(1) )
 });
