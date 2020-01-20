@@ -24,6 +24,9 @@ const titleCased = (array) => {
   })
 }
 
-function capitalize(element)
+// below function not used
+function capitalize(element) {
+  return element.map(token => token.charAt(0).toUpperCase() + token.slice(1))
+}
 
 // couldn't quite get the syntax right, had to look at solution
